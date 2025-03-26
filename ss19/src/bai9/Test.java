@@ -6,11 +6,11 @@ import java.util.List;
 public class Test {
     public static void main(String[] args) {
         List<Product> products = new ArrayList<>();
-        products.add(new Product("Laptop", 1200));
-        products.add(new Product("Mouse", 50));
-        products.add(new Product("Keyboard", 80));
-        products.add(new Product("Monitor", 200));
-        products.add(new Product("USB Drive", 25));
+        products.add(new Product("áo len", 1200));
+        products.add(new Product("quần jean", 510));
+        products.add(new Product("iphone", 200));
+        products.add(new Product("samsung", 200));
+        products.add(new Product("gấu bông", 250));
 
 
         ProductProcessor processor = new ProductProcessorImpl();
